@@ -3,9 +3,14 @@ This Repo is used as supplementary material for Jiahe Wang's MFE and MQF applica
 
 ---
 
-There three files in this repo, two are basically same(企查查爬虫, 天眼查爬虫), '企查查' and '天眼查' are two websites for querying various information about companies in mainland China. And since I work in the primary market investment department, my boss has a need for collecting unlisted companies' info. The code is simple, search the company name in the company list, enter the company page and collect its business and share holder info, save the result.
+This repo stores my code for my Intern work, mostly about web scrping works.
 
-The third file, ```搜索查询v2.0```, (search query in English), is a Web Crawler for collecting search result in Baidu and Google(baidu is like Chinese Google), simple code, search company name, collect the result amount, search next. I added multithreading in this part.
+File list:
+
+- ```企查查爬虫.ipynb``` : jupyter notebook, scraper for [企查查](https://www.qcc.com/), a Chinese website offering company information search and business data analysis services.
+- ```天眼查爬虫.ipynb``` : jupyter notebook, scraper for [天眼查](https://www.tianyancha.com/), a Chinese website offering company information search and business data analysis services.
+- ```搜索查询v2.0``` : jupyter notebook, scraper for collecting search result in Baidu and Google(baidu is a Chinese search engine).
+- ```linajia/``` : directory, my scraper project for collecting all history housing deal and rent data from (lianjia)[https://www.lianjia.com/city/], a Chinese housing trading platform. I collected all 8 millon data and I can't upload all since it is too big(exceeding Github's 100 MB limit), so I shared a sample data of 100,000 rows called ```sample_data.csv```.
 
 For more detailed description of the code, pls check the code, the name of each function says its function. And there is Chinese in the code since I wrote this for my boss.
 
